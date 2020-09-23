@@ -1,0 +1,27 @@
+:root {
+    --dark-color: rgba(3, 36, 14, 0.8);
+    --medium-color: rgba(54, 129, 79, 0.2);
+    --light-color: rgb(139, 202, 160);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #777;
+    padding: 2rem;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to bottom right, var(--light-color), var(--medium-color)), url('../img/pic.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0%, 100% 73%, 0% 100%);
+}
